@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import ImageGallery from 'react-image-gallery';
+
 import{
   BrowserRouter as Router,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 
 //Componets
@@ -16,6 +15,7 @@ import Animes from './components/pages/animes';
 import Misc from './components/pages/misc';
 
 //css
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './Assets/css/default.min.css';
 
 
@@ -29,8 +29,7 @@ class App extends Component {
         <Route exact path='/Movies' component={Movies}/>
         <Route exact path='/Sitcoms' component={Sitcoms}/>
         <Route exact path='/Animes' component={Animes}/>
-        <Route exact path='/Misc' component={Misc}/>
-      <Footer />
+       <Route exact path='/Misc' component={Misc}/>
       </div>
       </Router>
     );
