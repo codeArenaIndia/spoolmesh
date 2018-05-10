@@ -4,12 +4,10 @@ class Misc extends Component {
     render() {
         return (
             <div ClassName="container-fluid">
-                <h1>
+                <div className="text-center">
                 Misc
-                </h1>
-                <p>
-                Misc
-                </p>
+                </div>
+                <div className="text-center">Coming Soon</div>
             </div>
         );
     }  

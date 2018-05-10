@@ -4,12 +4,8 @@ class Animes extends Component {
     render() {
         return (
             <div ClassName="container-fluid">
-                <h1>
-                Animes
-                </h1>
-                <p>
-                Animes
-                </p>
+                <div className="text-center">Animes</div>
+                <div className="text-center">Coming Soon</div>
             </div>
         );
     }  

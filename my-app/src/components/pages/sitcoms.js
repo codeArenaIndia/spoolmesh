@@ -4,12 +4,10 @@ class Sitcoms extends Component {
     render() {
         return (
             <div ClassName="container-fluid">
-                <h1>
-                Sitcoms
-                </h1>
-                <p>
-                Sitcoms
-                </p>
+            <div className="text-center">
+            Sitcoms
+            </div>
+            <div className="text-center">Coming Soon</div>
             </div>
         );
     }  

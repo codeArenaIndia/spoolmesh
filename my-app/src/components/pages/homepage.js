@@ -5,9 +5,10 @@ class Homepage extends Component {
   render() {
     return (
     <div className="container-Fluid">
-        <div className="main_content">
+        <div className="text-center">
           Quiz  corousal
         </div>
+        <div className="text-center">Coming Soon</div>
     </div>
     );
   }
